@@ -1,0 +1,127 @@
+
+*{
+  /*border:1px solid red;*/
+}
+
+body{
+  /*background: url('http://www.overpassdesign.com/wp-content/uploads/2017/04/endless-runner-v2.gif');*/
+    background-image: url('https://i.pinimg.com/originals/c7/c4/b9/c7c4b9bda7a42c1b6717680bae69ba2e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+  text-align: center;
+  height: 200px;
+  font-size: 40px;
+  align-items: center;
+}
+
+#character{
+  /*background-color: pink;*/
+  background: url('https://res.cloudinary.com/dvjtpejbw/image/upload/v1538165710/scuba_diver.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  background-position: contain;
+  top: 210px;
+  left: 375px;
+  position: absolute;
+  color: black;
+  font-size: 10px;
+
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+}
+
+.lilMaze{
+  background-repeat: no-repeat;
+  /*border: 1px solid blue;*/
+  background-size: contain;
+  background-position: center;
+}
+
+.box-container1{
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid purple;*/
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+}
+
+.v-wall{
+  background-color: black;
+  width:2px;
+  left:5px;
+}
+
+#box1{
+  border-top: 5px solid black;
+  border-right:5px solid black;
+}
+
+#box2{
+  border-top: 5px solid black;
+}
+
+#box3{
+  border-top: 5px solid black;
+  border-right:5px solid black;
+
+}
+
+#box4{
+  border-left:5px solid black;
+  border-bottom:5px solid black;
+
+}
+
+#box5{
+  border-bottom:5px solid black;
+
+}
+
+#box6{
+  border-bottom:5px solid black;
+  border-left:5px solid black;
+/*  border-right: 1px solid black;
+*/}
+
+#start{
+  width:50px;
+  border-top:5px solid red;
+  border-bottom:5px solid red;
+}
+
+#end{
+  width:50px;
+  border-top:5px solid red;
+  border-bottom:5px solid red;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+}
+
+.not{
+  width: 50px;
+}
+
+#bigMazeContainer{
+  /*background-color: orange;*/
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  opacity: 1;
+}
+
+.hide {
+  opacity:0;
+}
