@@ -4,10 +4,11 @@
 }
 
 body{
-  /*background: url('http://www.overpassdesign.com/wp-content/uploads/2017/04/endless-runner-v2.gif');*/
     background-image: url('https://i.pinimg.com/originals/c7/c4/b9/c7c4b9bda7a42c1b6717680bae69ba2e.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    dispaly: flex;
+    justify-content: center;
 }
 .title{
   text-align: center;
@@ -17,13 +18,10 @@ body{
 }
 
 #character{
-  /*background-color: pink;*/
-/*  background: url('https://res.cloudinary.com/dvjtpejbw/image/upload/v1538165710/scuba_diver.png');
-*/
   background: url('https://i.pinimg.com/originals/fa/6e/99/fa6e9982404529ce877ab8f1754ee111.gif');
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 100px;
+  height: 61px;
   width: 100px;
   background-position: contain;
   top: 210px;
@@ -35,20 +33,30 @@ body{
 }
 
 .box{
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   background-color: #0094c8;
   opacity: .5;
 }
 
-.lilMaze{
+.maze{
+  /*display: flex;*/
   background-repeat: no-repeat;
-  /*border: 1px solid blue;*/
+  border: 1px solid blue;
   background-size: contain;
   background-position: center;
+/*  max-width: 700px;
+  flex-wrap: wrap;*/
+  justify-content: center;
 }
 
-.box-container1{
+.lilMaze{
+  display: flex;
+  max-width: 750px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+/*.box-container1{
   display: flex;
   justify-content: center;
 
@@ -58,17 +66,14 @@ body{
     display: flex;
     justify-content: center;
 
-}
+}*/
 
-.v-wall{
-  background-color: black;
-  width:2px;
-  left:5px;
-}
 
 #box1{
   border-top: 5px solid black;
-  border-right:5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
 }
 
 #box2{
@@ -98,6 +103,132 @@ body{
 /*  border-right: 1px solid black;
 */}
 
+#box7{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box8{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box9{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box10{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box11{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box12{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box13{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box14{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box15{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box16{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box17{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box18{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box19{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box20{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box21{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box22{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box23{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#box24{
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
 #start{
   width:50px;
   border-top:5px solid red;
@@ -112,11 +243,6 @@ body{
   border-bottom:5px solid red;
   background-color: #0094c8;
   opacity: .5;
-}
-
-.box{
-  height: 200px;
-  width: 200px;
 }
 
 .not{

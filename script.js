@@ -16,13 +16,16 @@ function move(event) {
   } else if (event.keyCode == 37) {
     leftPosition += -distance;
     char.style.left = leftPosition + 'px';
+    distance = 10
   } else if (event.keyCode == 38) {
     topPosition += -distance;
     char.style.top = topPosition + 'px';
+    distance = 10
   } else if (event.keyCode == 40) {
     topPosition += distance;
     char.style.top = topPosition + 'px';
-    char.rotate
+    distance = 10
+    // char.rotate
   }
 }
 
