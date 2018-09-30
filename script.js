@@ -1,6 +1,6 @@
 let char = document.querySelector('#character')
-let leftPosition = 375;
-let topPosition = 210;
+let leftPosition = 925;
+let topPosition = 200;
 let distance = 10;
 
 // console.log(getComputedStyle(document.querySelector('.v-wall')).getPropertyValue("left"))
@@ -33,7 +33,7 @@ function collision() {
 char.innerHTML = ` L: ${leftPosition} px<br>T: ${topPosition} px `;
 if (topPosition > 375 && leftPosition >= 1000){
   alert('YOU WIN');
-} else if (topPosition < 210 ||
+} else if (topPosition < 200 ||
   topPosition > 540 ||
   leftPosition > 515 && leftPosition < 620 && topPosition < 410 ||
   leftPosition > 770 && leftPosition < 825 && topPosition > 355 ||

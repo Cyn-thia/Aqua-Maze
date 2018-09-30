@@ -24,8 +24,8 @@ body{
   height: 61px;
   width: 100px;
   background-position: contain;
-  top: 210px;
-  left: 375px;
+  top: 200px;
+  left: 925px;
   position: absolute;
   color: black;
   font-size: 10px;
@@ -37,6 +37,7 @@ body{
   width: 100px;
   background-color: #0094c8;
   opacity: .5;
+  margin: 0;
 }
 
 .maze{
@@ -52,7 +53,7 @@ body{
 
 .lilMaze{
   display: flex;
-  max-width: 750px;
+  max-width: 630px;
   flex-wrap: wrap;
   margin: 0 auto;
 }
@@ -71,163 +72,184 @@ body{
 
 #box1{
   border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
+  /*border-right: 5px solid black;*/
+  /*border-bottom: 5px solid black;*/
   border-left: 5px solid black;
 }
 
 #box2{
   border-top: 5px solid black;
+  border-right: 5px solid black;
+/*  border-bottom: 5px solid black;
+*/  /*border-left: 5px solid black;*/
 }
 
 #box3{
   border-top: 5px solid black;
-  border-right:5px solid black;
-
+/*  border-right: 5px solid black;
+*//*  border-bottom: 5px solid black;
+*/  /*border-left: 5px solid black;*/
 }
 
 #box4{
-  border-left:5px solid black;
-  border-bottom:5px solid black;
-
-}
-
-#box5{
-  border-bottom:5px solid black;
-
-}
-
-#box6{
-  border-bottom:5px solid black;
-  border-left:5px solid black;
-/*  border-right: 1px solid black;
+ border-top: 5px solid black;
+/*  border-right: 5px solid black;
+*/  /*border-bottom: 5px solid black;*/
+/*  border-left: 5px solid black;
 */}
 
-#box7{
-  border-top: 5px solid black;
+#box5{
+ border-top: 5px solid black;
+/*  border-right: 5px solid black;
+*/  /*border-bottom: 5px solid black;*/
+/*  border-left: 5px solid black;
+*/}
+
+#box6{
+  border-top: 5px solid rgba(255,255,255,0);
   border-right: 5px solid black;
-  border-bottom: 5px solid black;
+/*  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;*/
+  padding-left: 10px;
+}
+
+#box7{
+  border-top: 5px solid transparent;
+  border-right: 5px solid black;
+  /*border-bottom: 5px solid transparent;*/
   border-left: 5px solid black;
 }
 
 #box8{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
-}
+  border-top: 5px solid transparent;
+*//*  border-right: 5px solid black;
+  /*border-bottom: 5px solid black;*/
+/*  border-left: 5px solid black;
+*/}
 
 #box9{
-  border-top: 5px solid black;
+  border-top: 5px solid transparent;
   border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
-}
+  /*border-bottom: 5px solid black;*/
+/*  border-left: 5px solid black;
+*/}
 
 #box10{
   border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-right: 5px solid black;
+*//*  border-bottom: 5px solid black;
+*/  /**/
 }
 
 #box11{
   border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
-}
+/*  border-right: 5px solid black;
+*/  /*border-bottom: 5px solid black;*/
+/*  border-left: 5px solid black;
+*/}
 
 #box12{
   border-top: 5px solid black;
   border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-bottom: 5px solid black;
+*//*  border-left: 5px solid black;
+*/padding-left: 5px
 }
 
 #box13{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-top: 5px solid black;
+*//*  border-right: 5px solid black;
+*//*  border-bottom: 5px solid black;
+*/  border-left: 5px solid black;
+padding-bottom: 5px;
 }
 
 #box14{
   border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
-}
+/*  border-right: 5px solid black;
+*/  /*border-bottom: 5px solid black*/;
+/*  border-left: 5px solid black;
+*/}
 
 #box15{
   border-top: 5px solid black;
   border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-bottom: 5px solid black;
+*//*  border-left: 5px solid black;
+*/ padding-left: 5px;
 }
 
 #box16{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-top: 5px solid black;
+*/  border-right: 5px solid black;
+/*  border-bottom: 5px solid black;
+*/  /*border-left: 5px solid black*/;
+padding-bottom: 5px;
 }
 
 #box17{
   border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-right: 5px solid black;
+*//*  border-bottom: 5px solid black;
+*/  /*border-left: 5px solid black;*/
 }
 
 #box18{
-  border-top: 5px solid black;
+/*  border-top: 5px solid black;*/
   border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+  /*border-bottom: 5px solid black;*/
+/*  border-left: 5px solid black;
+*/ padding-bottom: 5px;
 }
 
 #box19{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
+/*  border-top: 5px solid black;
+*//*border-right: 5px solid black;*/
   border-bottom: 5px solid black;
   border-left: 5px solid black;
+  padding-top: 5px;
 }
 
 #box20{
   border-top: 5px solid black;
   border-right: 5px solid black;
   border-bottom: 5px solid black;
-  border-left: 5px solid black;
-}
+/*  border-left: 5px solid black;
+*/}
 
 #box21{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-top: 5px solid black;
+*//*  border-right: 5px solid black;
+*/  border-bottom: 5px solid black;
+  /*border-left: 5px solid black;*/
+  padding-top: 5px;
+
 }
 
 #box22{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
+/*  border-top: 5px solid black;
+*/  /*border-right: 5px solid black;*/
   border-bottom: 5px solid black;
-  border-left: 5px solid black;
+/*  border-left: 5px solid black;
+*/ padding-left: 5px;
+padding-top: 5px;
 }
 
 #box23{
-  border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
+/*  border-top: 5px solid black;
+*//*  border-right: 5px solid black;
+*/  border-bottom: 5px solid black;
   border-left: 5px solid black;
+  padding-top: 5px;
+
 }
 
 #box24{
   border-top: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  border-left: 5px solid black;
-}
+/*  border-right: 5px solid black;
+*/  border-bottom: 5px solid black;
+/*  border-left: 5px solid black;
+*/}
 
 #start{
   width:50px;
