@@ -31,18 +31,27 @@ body{
   color: white;
   font-size: 10px;
   z-index: 1;
-  animation: slideout 2s ;
+  /*animation: slideout 2s linear;*/
 }
 
 @keyframes slideout {
   from {
-    margin-left: 100%;
-    width: 300%;
+    left: leftPosition;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    left: 100%;
+    display: none;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
 
