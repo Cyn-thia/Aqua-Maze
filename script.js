@@ -25,7 +25,7 @@ function move(event) {
     leftPosition += distance;
     char.style.left = leftPosition + 'px';
     distance = 10;
-    char.style.background = "url('/Users/cynthia/wdi/unit01/projects/Uni1-1-Project-Maze/images/solo scuba.gif')"
+    char.style.background = "url('./images/solo scuba.gif')"
     char.style.width = "100px"
     char.style.height = "61px"
 
@@ -34,7 +34,7 @@ function move(event) {
     leftPosition += -distance;
     char.style.left = leftPosition + 'px';
     distance = 10;
-    char.style.background = "url('/Users/cynthia/wdi/unit01/projects/Uni1-1-Project-Maze/images/solo scuba left.gif')"
+    char.style.background = "url('./images/solo scuba left.gif')"
     char.style.width = "100px"
     char.style.height = "61px"
 
@@ -43,7 +43,7 @@ function move(event) {
     topPosition += -distance;
     char.style.top = topPosition + 'px';
     distance = 10;
-    char.style.backgroundImage = "url('/Users/cynthia/wdi/unit01/projects/Uni1-1-Project-Maze/images/solo scuba up.gif')";
+    char.style.backgroundImage = "url('./images/solo scuba up.gif')";
     char.style.width = "81px"
     char.style.height = "83px"
 
@@ -52,7 +52,7 @@ function move(event) {
     topPosition += distance;
     char.style.top = topPosition + 'px';
     distance = 10;
-    char.style.backgroundImage = "url('/Users/cynthia/wdi/unit01/projects/Uni1-1-Project-Maze/images/solo scuba down.gif')";
+    char.style.backgroundImage = "url('./images/solo scuba down.gif')";
     char.style.width = "81px"
     char.style.height = "83px"
   }
