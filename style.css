@@ -31,7 +31,6 @@ body{
   color: white;
   font-size: 10px;
   z-index: 1;
-  /*animation: slideout 2s linear;*/
 }
 
 @keyframes slideout {

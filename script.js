@@ -1,6 +1,8 @@
 let char = document.querySelector('#character')
+// let leftPosition = 925;
+// let topPosition = 215;
 let leftPosition = 925;
-let topPosition = 215;
+let topPosition = 530;
 let distance = 10;
 let left = []
 let vWalls = document.querySelectorAll('.v-wall')
@@ -62,6 +64,7 @@ function collision() {
 if (topPosition > 530 && leftPosition > 950){
   char.style.animation = "slideout 2s linear"
   document.querySelector('.winnerContainer').style.opacity = '1'
+  document.querySelector('.win').play();
 } else if (leftPosition > 840 && topPosition < 200) {
     alert('Wrong Way!')
     distance = -10
