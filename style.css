@@ -304,7 +304,7 @@ padding-top: 5px;
   text-align:center;
   font-size: 25px;
   opacity: 1;
-  transition: opacity;
+  transition: 2s linear;
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
