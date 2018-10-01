@@ -1,19 +1,19 @@
 let char = document.querySelector('#character')
-// let leftPosition = 925;
-// let topPosition = 215;
 let leftPosition = 925;
-let topPosition = 530;
+let topPosition = 215;
 let distance = 10;
 let left = []
 let vWalls = document.querySelectorAll('.v-wall')
 
+// event listener for intital "Let's Play" button on landing page
 document.querySelector('button').addEventListener("click", play)
 
+// function for lets play button. Hides the landing page by setting opacity to 0
 function play(){
   document.querySelector('#landing').style.opacity = "0";
 }
 
-//
+// event listener for each key up
 window.addEventListener("keyup", move)
 
 // function for what happens each time a key is pressed
