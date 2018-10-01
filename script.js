@@ -8,7 +8,7 @@ let vWalls = document.querySelectorAll('.v-wall')
 document.querySelector('button').addEventListener("click", play)
 
 function play(){
-  document.querySelector('#landing').className = 'hide';
+  document.querySelector('#landing').style.opacity = "0";
 }
 
 //
@@ -60,8 +60,7 @@ function move(event) {
 //function for collision detection with maze walls
 function collision() {
 if (topPosition > 530 && leftPosition > 950){
-  alert('YOU WIN');
-
+  document.querySelector('.winnerContainer').style.opacity = '1'
 } else if (leftPosition > 840 && topPosition < 200) {
   alert('Wrong Way!')
   distance = -10
@@ -69,9 +68,10 @@ if (topPosition > 530 && leftPosition > 950){
   leftPosition > 940 && topPosition < 526 || // maze right
   leftPosition < 395 || //maze left
   topPosition > 560 || //maze bottom
-  leftPosition < 615 && leftPosition > 525 && topPosition < 300 || //box2 right
-  leftPosition > 635 && topPosition > 280 && topPosition < 320 || //box7 right
-  leftPosition > 636 && leftPosition < 705 && topPosition > 285 && topPosition < 525 || //box9 right
+  leftPosition > 535 && leftPosition < 615 && topPosition < 300 || //box2 right
+  leftPosition > 636 && topPosition > 280 && topPosition < 316  ||//box4 bottom
+  leftPosition > 435 && leftPosition < 499 && topPosition > 280 && topPosition < 420 || //box7 right
+  leftPosition > 636 && leftPosition < 705 && topPosition > 285 && topPosition < 515 || //box9 right
   leftPosition > 435 && leftPosition < 635 && topPosition > 350 && topPosition < 425 || //box14 top
   leftPosition > 425 && leftPosition < 600 && topPosition > 455 && topPosition < 536 || //box 14 bottom
   leftPosition > 525 && leftPosition < 600 && topPosition > 455 ||  //box20 right
