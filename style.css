@@ -18,18 +18,18 @@ body{
 }
 
 #character{
-  background: url('https://i.pinimg.com/originals/fa/6e/99/fa6e9982404529ce877ab8f1754ee111.gif');
-  background-size: 100%;
+  background-size: 100% !important;
+  background-image: url('/Users/cynthia/wdi/unit01/projects/Uni1-1-Project-Maze/images/solo scuba left.gif');
   background-repeat: no-repeat;
   height: 61px;
   width: 100px;
-  background-position: contain;
-  top: 200px;
+  top: 215px;
   left: 925px;
   position: absolute;
-  color: black;
+  color: white;
   font-size: 10px;
   z-index: 1;
+  border: 1px solid red;
 }
 
 .box{
@@ -43,7 +43,7 @@ body{
 .maze{
   /*display: flex;*/
   background-repeat: no-repeat;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   background-size: contain;
   background-position: center;
 /*  max-width: 700px;
@@ -57,17 +57,6 @@ body{
   flex-wrap: wrap;
   margin: 0 auto;
 }
-/*.box-container1{
-  display: flex;
-  justify-content: center;
-
-}
-
-.box-container2{
-    display: flex;
-    justify-content: center;
-
-}*/
 
 
 #box1{
@@ -79,7 +68,7 @@ body{
 
 #box2{
   border-top: 5px solid black;
-  border-right: 5px solid black;
+  /*border-right: 5px solid black;*/
 /*  border-bottom: 5px solid black;
 */  /*border-left: 5px solid black;*/
 }
@@ -251,12 +240,23 @@ padding-top: 5px;
 /*  border-left: 5px solid black;
 */}
 
-#start{
-  width:50px;
-  border-top:5px solid red;
-  border-bottom:5px solid red;
-  background-color: #0094c8;
-  opacity: .5;
+/*#start{
+  border-right :5px solid red;
+  position: absolute;
+  height: 400px;
+  top:5px;
+}
+
+.v-wall{
+  border-right :5px solid red;
+  position: fixed;
+  height: 100px;
+}*/
+
+#vWall1{
+  border-right :5px solid red;
+  border-top :5px solid red;
+  height: 100px;
 }
 
 #end{
